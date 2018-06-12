@@ -1,0 +1,1663 @@
+/*!
+Pure v0.6.1-pre
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+/*!
+normalize.css v^3.0 | MIT License | git.io/normalize
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+.cmdonation {
+    font-family: sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+.cmdonation {
+    margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+.cmdonation article,
+.cmdonation aside,
+.cmdonation details,
+.cmdonation figcaption,
+.cmdonation figure,
+.cmdonation footer,
+.cmdonation header,
+.cmdonation hgroup,
+.cmdonation main,
+.cmdonation menu,
+.cmdonation nav,
+.cmdonation section,
+.cmdonation summary {
+    display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+.cmdonation audio,
+.cmdonation canvas,
+.cmdonation progress,
+.cmdonation video {
+    display: inline-block;
+    /* 1 */
+    vertical-align: baseline;
+    /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+.cmdonation audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+
+.cmdonation [hidden],
+.cmdonation template {
+    display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+.cmdonation a {
+    background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+.cmdonation a:active,
+.cmdonation a:hover {
+    outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+.cmdonation abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+.cmdonation b,
+.cmdonation strong {
+    font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+.cmdonation dfn {
+    font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+.cmdonation h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+.cmdonation mark {
+    background: #ff0;
+    color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+.cmdonation small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+.cmdonation sub,
+.cmdonation sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.cmdonation sup {
+    top: -0.5em;
+}
+
+.cmdonation sub {
+    bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+.cmdonation img {
+    border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+.cmdonation svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+.cmdonation figure {
+    margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+.cmdonation hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+.cmdonation pre {
+    overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+.cmdonation code,
+.cmdonation kbd,
+.cmdonation pre,
+.cmdonation samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+.cmdonation button,
+.cmdonation input,
+.cmdonation optgroup,
+.cmdonation select,
+.cmdonation textarea {
+    color: inherit;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+    margin: 0;
+    /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+.cmdonation button {
+    overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+.cmdonation button,
+.cmdonation select {
+    text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+.cmdonation button,
+.cmdonation input[type="button"],
+.cmdonation input[type="reset"],
+.cmdonation input[type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+.cmdonation button[disabled],
+.cmdonation input[disabled] {
+    cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+.cmdonation button::-moz-focus-inner,
+.cmdonation input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+.cmdonation input {
+    line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+.cmdonation input[type="checkbox"],
+.cmdonation input[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+.cmdonation input[type="number"]::-webkit-inner-spin-button,
+.cmdonation input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+
+.cmdonation input[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    box-sizing: content-box;
+    /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+.cmdonation input[type="search"]::-webkit-search-cancel-button,
+.cmdonation input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+.cmdonation fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+.cmdonation legend {
+    border: 0;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+.cmdonation textarea {
+    overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+.cmdonation optgroup {
+    font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+.cmdonation table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cmdonation td,
+.cmdonation th {
+    padding: 0;
+}
+
+/*csslint important:false*/
+
+/* ==========================================================================
+   Pure Base Extras
+   ========================================================================== */
+
+/**
+ * Extra rules that Pure adds on top of Normalize.css
+ */
+
+/**
+ * Always hide an element when it has the `hidden` HTML attribute.
+ */
+
+.cmdonation .hidden,
+.cmdonation [hidden] {
+    display: none !important;
+}
+
+/**
+ * Add this class to an image to make it fit within it's fluid parent wrapper while maintaining
+ * aspect ratio.
+ */
+
+.cmdonation .pure-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cmdonation .pure-float-left {
+    float: left;
+}
+
+.cmdonation .pure-float-right {
+    float: right;
+}
+
+.cmdonation .pure-text-left {
+    text-align: left;
+}
+
+.cmdonation .pure-text-right {
+    text-align: right;
+}
+
+.cmdonation .pure-text-center {
+    text-align: center;
+}
+
+.cmdonation .pure-clearfix:before,
+.cmdonation .pure-clearfix:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.cmdonation .pure-clearfix:after {
+    clear: both;
+}
+
+.cmdonation .pure-text-success {
+    color: rgb(28, 184, 65);
+}
+
+.cmdonation .pure-text-error {
+    color: rgb(202, 60, 60);
+}
+
+.cmdonation .pure-text-warning {
+    color: rgb(223, 117, 20);
+}
+
+/*csslint regex-selectors:false, known-properties:false, duplicate-properties:false*/
+
+.cmdonation .pure-g {
+    letter-spacing: -0.31em;
+    /* Webkit: collapse white-space between units */
+    *letter-spacing: normal;
+    /* reset IE < 8 */
+    *word-spacing: -0.43em;
+    /* IE < 8: collapse white-space between units */
+    text-rendering: optimizespeed;
+    /* Webkit: fixes text-rendering: optimizeLegibility */
+    /*
+    Sets the font stack to fonts known to work properly with the above letter
+    and word spacings. See: https://github.com/yahoo/pure/issues/41/
+
+    The following font stack makes Pure Grids work on all known environments.
+
+    * FreeSans: Ships with many Linux distros, including Ubuntu
+
+    * Arimo: Ships with Chrome OS. Arimo has to be defined before Helvetica and
+      Arial to get picked up by the browser, even though neither is available
+      in Chrome OS.
+
+    * Droid Sans: Ships with all versions of Android.
+
+    * Helvetica, Arial, sans-serif: Common font stack on OS X and Windows.
+    */
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+    /*
+    Use flexbox when possible to avoid `letter-spacing` side-effects.
+
+    NOTE: Firefox (as of 25) does not currently support flex-wrap, so the
+    `-moz-` prefix version is omitted.
+    */
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    /* IE10 uses display: flexbox */
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    /* Prevents distributing space between rows */
+    -ms-align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+}
+
+/* Opera as of 12 on Windows needs word-spacing.
+   The ".opera-only" selector is used to prevent actual prefocus styling
+   and is not required in markup.
+*/
+
+.cmdonation .opera-only :-o-prefocus,
+.cmdonation .pure-g {
+    word-spacing: -0.43em;
+}
+
+.cmdonation .pure-u {
+    display: inline-block;
+    *display: inline;
+    /* IE < 8: fake inline-block */
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+/*
+Resets the font family back to the OS/browser's default sans-serif font,
+this the same font stack that Normalize.css sets for the `body`.
+*/
+
+.cmdonation .pure-g [class *= "pure-u"] {
+    font-family: sans-serif;
+}
+
+.cmdonation .pure-u-1,
+.cmdonation .pure-u-1-1,
+.cmdonation .pure-u-1-2,
+.cmdonation .pure-u-1-3,
+.cmdonation .pure-u-2-3,
+.cmdonation .pure-u-1-4,
+.cmdonation .pure-u-3-4,
+.cmdonation .pure-u-1-5,
+.cmdonation .pure-u-2-5,
+.cmdonation .pure-u-3-5,
+.cmdonation .pure-u-4-5,
+.cmdonation .pure-u-5-5,
+.cmdonation .pure-u-1-6,
+.cmdonation .pure-u-5-6,
+.cmdonation .pure-u-1-8,
+.cmdonation .pure-u-3-8,
+.cmdonation .pure-u-5-8,
+.cmdonation .pure-u-7-8,
+.cmdonation .pure-u-1-12,
+.cmdonation .pure-u-5-12,
+.cmdonation .pure-u-7-12,
+.cmdonation .pure-u-11-12,
+.cmdonation .pure-u-1-24,
+.cmdonation .pure-u-2-24,
+.cmdonation .pure-u-3-24,
+.cmdonation .pure-u-4-24,
+.cmdonation .pure-u-5-24,
+.cmdonation .pure-u-6-24,
+.cmdonation .pure-u-7-24,
+.cmdonation .pure-u-8-24,
+.cmdonation .pure-u-9-24,
+.cmdonation .pure-u-10-24,
+.cmdonation .pure-u-11-24,
+.cmdonation .pure-u-12-24,
+.cmdonation .pure-u-13-24,
+.cmdonation .pure-u-14-24,
+.cmdonation .pure-u-15-24,
+.cmdonation .pure-u-16-24,
+.cmdonation .pure-u-17-24,
+.cmdonation .pure-u-18-24,
+.cmdonation .pure-u-19-24,
+.cmdonation .pure-u-20-24,
+.cmdonation .pure-u-21-24,
+.cmdonation .pure-u-22-24,
+.cmdonation .pure-u-23-24,
+.cmdonation .pure-u-24-24 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.cmdonation .pure-u-1-24 {
+    width: 4.1667%;
+    *width: 4.1357%;
+}
+
+.cmdonation .pure-u-1-12,
+.cmdonation .pure-u-2-24 {
+    width: 8.3333%;
+    *width: 8.3023%;
+}
+
+.cmdonation .pure-u-1-8,
+.cmdonation .pure-u-3-24 {
+    width: 12.5000%;
+    *width: 12.4690%;
+}
+
+.cmdonation .pure-u-1-6,
+.cmdonation .pure-u-4-24 {
+    width: 16.6667%;
+    *width: 16.6357%;
+}
+
+.cmdonation .pure-u-1-5 {
+    width: 20%;
+    *width: 19.9690%;
+}
+
+.cmdonation .pure-u-5-24 {
+    width: 20.8333%;
+    *width: 20.8023%;
+}
+
+.cmdonation .pure-u-1-4,
+.cmdonation .pure-u-6-24 {
+    width: 25%;
+    *width: 24.9690%;
+}
+
+.cmdonation .pure-u-7-24 {
+    width: 29.1667%;
+    *width: 29.1357%;
+}
+
+.cmdonation .pure-u-1-3,
+.cmdonation .pure-u-8-24 {
+    width: 33.3333%;
+    *width: 33.3023%;
+}
+
+.cmdonation .pure-u-3-8,
+.cmdonation .pure-u-9-24 {
+    width: 37.5000%;
+    *width: 37.4690%;
+}
+
+.cmdonation .pure-u-2-5 {
+    width: 40%;
+    *width: 39.9690%;
+}
+
+.cmdonation .pure-u-5-12,
+.cmdonation .pure-u-10-24 {
+    width: 41.6667%;
+    *width: 41.6357%;
+}
+
+.cmdonation .pure-u-11-24 {
+    width: 45.8333%;
+    *width: 45.8023%;
+}
+
+.cmdonation .pure-u-1-2,
+.cmdonation .pure-u-12-24 {
+    width: 50%;
+    *width: 49.9690%;
+}
+
+.cmdonation .pure-u-13-24 {
+    width: 54.1667%;
+    *width: 54.1357%;
+}
+
+.cmdonation .pure-u-7-12,
+.cmdonation .pure-u-14-24 {
+    width: 58.3333%;
+    *width: 58.3023%;
+}
+
+.cmdonation .pure-u-3-5 {
+    width: 60%;
+    *width: 59.9690%;
+}
+
+.cmdonation .pure-u-5-8,
+.cmdonation .pure-u-15-24 {
+    width: 62.5000%;
+    *width: 62.4690%;
+}
+
+.cmdonation .pure-u-2-3,
+.cmdonation .pure-u-16-24 {
+    width: 66.6667%;
+    *width: 66.6357%;
+}
+
+.cmdonation .pure-u-17-24 {
+    width: 70.8333%;
+    *width: 70.8023%;
+}
+
+.cmdonation .pure-u-3-4,
+.cmdonation .pure-u-18-24 {
+    width: 75%;
+    *width: 74.9690%;
+}
+
+.cmdonation .pure-u-19-24 {
+    width: 79.1667%;
+    *width: 79.1357%;
+}
+
+.cmdonation .pure-u-4-5 {
+    width: 80%;
+    *width: 79.9690%;
+}
+
+.cmdonation .pure-u-5-6,
+.cmdonation .pure-u-20-24 {
+    width: 83.3333%;
+    *width: 83.3023%;
+}
+
+.cmdonation .pure-u-7-8,
+.cmdonation .pure-u-21-24 {
+    width: 87.5000%;
+    *width: 87.4690%;
+}
+
+.cmdonation .pure-u-11-12,
+.cmdonation .pure-u-22-24 {
+    width: 91.6667%;
+    *width: 91.6357%;
+}
+
+.cmdonation .pure-u-23-24 {
+    width: 95.8333%;
+    *width: 95.8023%;
+}
+
+.cmdonation .pure-u-1,
+.cmdonation .pure-u-1-1,
+.cmdonation .pure-u-5-5,
+.cmdonation .pure-u-24-24 {
+    width: 100%;
+}
+
+.cmdonation .pure-button {
+    /* Structure */
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Firefox: Get rid of the inner focus border */
+
+.cmdonation .pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/*csslint outline-none:false*/
+
+.cmdonation .pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444;
+    /* rgba not supported (IE 8) */
+    color: rgba(0, 0, 0, 0.80);
+    /* rgba supported */
+    border: 1px solid #999;
+    /*IE 6/7/8*/
+    border: none rgba(0, 0, 0, 0);
+    /*IE9 + everything else*/
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.cmdonation .pure-button-hover,
+.cmdonation .pure-button:hover,
+.cmdonation .pure-button:focus {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0,0,0, 0.05)), to(rgba(0,0,0, 0.10)));
+    background-image: -webkit-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: -moz-linear-gradient(top, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.10));
+    background-image: -o-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+
+.cmdonation .pure-button:focus {
+    outline: 0;
+}
+
+.cmdonation .pure-button-active,
+.cmdonation .pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+    border-color: #000\9;
+}
+
+.cmdonation .pure-button[disabled],
+.cmdonation .pure-button-disabled,
+.cmdonation .pure-button-disabled:hover,
+.cmdonation .pure-button-disabled:focus,
+.cmdonation .pure-button-disabled:active {
+    border: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    filter: alpha(opacity=40);
+    -khtml-opacity: 0.40;
+    -moz-opacity: 0.40;
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.cmdonation .pure-button-hidden {
+    display: none;
+}
+
+/* Firefox: Get rid of the inner focus border */
+
+.cmdonation .pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.cmdonation .pure-button-primary,
+.cmdonation .pure-button-selected,
+.cmdonation a.pure-button-primary,
+.cmdonation a.pure-button-selected {
+    background-color: rgb(0, 120, 231);
+    color: #fff;
+}
+
+/*csslint box-model:false*/
+
+/*
+Box-model set to false because we're setting a height on select elements, which
+also have border and padding. This is done because some browsers don't render
+the padding. We explicitly set the box-model for select elements to border-box,
+so we can ignore the csslint warning.
+*/
+
+.cmdonation .pure-form input[type="text"],
+.cmdonation .pure-form input[type="password"],
+.cmdonation .pure-form input[type="email"],
+.cmdonation .pure-form input[type="url"],
+.cmdonation .pure-form input[type="date"],
+.cmdonation .pure-form input[type="month"],
+.cmdonation .pure-form input[type="time"],
+.cmdonation .pure-form input[type="datetime"],
+.cmdonation .pure-form input[type="datetime-local"],
+.cmdonation .pure-form input[type="week"],
+.cmdonation .pure-form input[type="number"],
+.cmdonation .pure-form input[type="search"],
+.cmdonation .pure-form input[type="tel"],
+.cmdonation .pure-form input[type="color"],
+.cmdonation .pure-form select,
+.cmdonation .pure-form textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.cmdonation .pure-form input[type="radio"],
+.cmdonation .pure-form input[type="checkbox"] {
+    margin-top: 0;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+
+.cmdonation .pure-form input:not([type]) {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Chrome (as of v.32/34 on OS X) needs additional room for color to display. */
+
+/* May be able to remove this tweak as color inputs become more standardized across browsers. */
+
+.cmdonation .pure-form input[type="color"] {
+    padding: 0.2em 0.5em;
+}
+
+.cmdonation .pure-form input[type="text"]:focus,
+.cmdonation .pure-form input[type="password"]:focus,
+.cmdonation .pure-form input[type="email"]:focus,
+.cmdonation .pure-form input[type="url"]:focus,
+.cmdonation .pure-form input[type="date"]:focus,
+.cmdonation .pure-form input[type="month"]:focus,
+.cmdonation .pure-form input[type="time"]:focus,
+.cmdonation .pure-form input[type="datetime"]:focus,
+.cmdonation .pure-form input[type="datetime-local"]:focus,
+.cmdonation .pure-form input[type="week"]:focus,
+.cmdonation .pure-form input[type="number"]:focus,
+.cmdonation .pure-form input[type="search"]:focus,
+.cmdonation .pure-form input[type="tel"]:focus,
+.cmdonation .pure-form input[type="color"]:focus,
+.cmdonation .pure-form select:focus,
+.cmdonation .pure-form textarea:focus {
+    outline: 0;
+    border-color: #129FEA;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+
+.cmdonation .pure-form input:not([type]):focus {
+    outline: 0;
+    border-color: #129FEA;
+}
+
+.cmdonation .pure-form input[type="file"]:focus,
+.cmdonation .pure-form input[type="radio"]:focus,
+.cmdonation .pure-form input[type="checkbox"]:focus {
+    outline: thin solid #129FEA;
+    outline: 1px auto #129FEA;
+}
+
+.cmdonation .pure-form .pure-checkbox,
+.cmdonation .pure-form .pure-radio {
+    margin: 0.5em 0;
+    display: block;
+}
+
+.cmdonation .pure-form input[type="text"][disabled],
+.cmdonation .pure-form input[type="password"][disabled],
+.cmdonation .pure-form input[type="email"][disabled],
+.cmdonation .pure-form input[type="url"][disabled],
+.cmdonation .pure-form input[type="date"][disabled],
+.cmdonation .pure-form input[type="month"][disabled],
+.cmdonation .pure-form input[type="time"][disabled],
+.cmdonation .pure-form input[type="datetime"][disabled],
+.cmdonation .pure-form input[type="datetime-local"][disabled],
+.cmdonation .pure-form input[type="week"][disabled],
+.cmdonation .pure-form input[type="number"][disabled],
+.cmdonation .pure-form input[type="search"][disabled],
+.cmdonation .pure-form input[type="tel"][disabled],
+.cmdonation .pure-form input[type="color"][disabled],
+.cmdonation .pure-form select[disabled],
+.cmdonation .pure-form textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+
+.cmdonation .pure-form input:not([type])[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+.cmdonation .pure-form input[readonly],
+.cmdonation .pure-form select[readonly],
+.cmdonation .pure-form textarea[readonly] {
+    background-color: #eee;
+    /* menu hover bg color */
+    color: #777;
+    /* menu text color */
+    border-color: #ccc;
+}
+
+.cmdonation .pure-form input:focus:invalid,
+.cmdonation .pure-form textarea:focus:invalid,
+.cmdonation .pure-form select:focus:invalid {
+    color: #b94a48;
+    border-color: #e9322d;
+}
+
+.cmdonation .pure-form input[type="file"]:focus:invalid:focus,
+.cmdonation .pure-form input[type="radio"]:focus:invalid:focus,
+.cmdonation .pure-form input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e9322d;
+}
+
+.cmdonation .pure-form select {
+    /* Normalizes the height; padding is not sufficient. */
+    height: 2.25em;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.cmdonation .pure-form select[multiple] {
+    height: auto;
+}
+
+.cmdonation .pure-form label {
+    margin: 0.5em 0 0.2em;
+}
+
+.cmdonation .pure-form fieldset {
+    margin: 0;
+    padding: 0.35em 0 0.75em;
+    border: 0;
+}
+
+.cmdonation .pure-form legend {
+    display: block;
+    width: 100%;
+    padding: 0.3em 0;
+    margin-bottom: 0.3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.cmdonation .pure-form-stacked input[type="text"],
+.cmdonation .pure-form-stacked input[type="password"],
+.cmdonation .pure-form-stacked input[type="email"],
+.cmdonation .pure-form-stacked input[type="url"],
+.cmdonation .pure-form-stacked input[type="date"],
+.cmdonation .pure-form-stacked input[type="month"],
+.cmdonation .pure-form-stacked input[type="time"],
+.cmdonation .pure-form-stacked input[type="datetime"],
+.cmdonation .pure-form-stacked input[type="datetime-local"],
+.cmdonation .pure-form-stacked input[type="week"],
+.cmdonation .pure-form-stacked input[type="number"],
+.cmdonation .pure-form-stacked input[type="search"],
+.cmdonation .pure-form-stacked input[type="tel"],
+.cmdonation .pure-form-stacked input[type="color"],
+.cmdonation .pure-form-stacked input[type="file"],
+.cmdonation .pure-form-stacked select,
+.cmdonation .pure-form-stacked label,
+.cmdonation .pure-form-stacked textarea {
+    display: block;
+    margin: 0.25em 0;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+
+.cmdonation .pure-form-stacked input:not([type]) {
+    display: block;
+    margin: 0.25em 0;
+}
+
+.cmdonation .pure-form-aligned input,
+.cmdonation .pure-form-aligned textarea,
+.cmdonation .pure-form-aligned select,
+.cmdonation .pure-form-aligned .pure-help-inline,
+.cmdonation .pure-form-message-inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+
+.cmdonation .pure-form-aligned textarea {
+    vertical-align: top;
+}
+
+/* Aligned Forms */
+
+.cmdonation .pure-form-aligned .pure-control-group {
+    margin-bottom: 0.5em;
+}
+
+.cmdonation .pure-form-aligned .pure-control-group label {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10em;
+    margin: 0 1em 0 0;
+}
+
+.cmdonation .pure-form-aligned .pure-control-group .item-list-label {
+    vertical-align: top;
+}
+
+.cmdonation .pure-form-aligned .pure-controls {
+    margin: 1.5em 0 0 11em;
+}
+
+/* Rounded Inputs */
+
+.cmdonation .pure-form input.pure-input-rounded,
+.cmdonation .pure-form .pure-input-rounded {
+    border-radius: 2em;
+    padding: 0.5em 1em;
+}
+
+/* Grouped Inputs */
+
+.cmdonation .pure-form .pure-group fieldset {
+    margin-bottom: 10px;
+}
+
+.cmdonation .pure-form .pure-group input,
+.cmdonation .pure-form .pure-group textarea {
+    display: block;
+    padding: 10px;
+    margin: 0 0 -1px;
+    border-radius: 0;
+    position: relative;
+    top: -1px;
+}
+
+.cmdonation .pure-form .pure-group input:focus,
+.cmdonation .pure-form .pure-group textarea:focus {
+    z-index: 3;
+}
+
+.cmdonation .pure-form .pure-group input:first-child,
+.cmdonation .pure-form .pure-group textarea:first-child {
+    top: 1px;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+}
+
+.cmdonation .pure-form .pure-group input:first-child:last-child,
+.cmdonation .pure-form .pure-group textarea:first-child:last-child {
+    top: 1px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.cmdonation .pure-form .pure-group input:last-child,
+.cmdonation .pure-form .pure-group textarea:last-child {
+    top: -2px;
+    border-radius: 0 0 4px 4px;
+    margin: 0;
+}
+
+.cmdonation .pure-form .pure-group button {
+    margin: 0.35em 0;
+}
+
+.cmdonation .pure-form .pure-input-1 {
+    width: 100%;
+}
+
+.cmdonation .pure-form .pure-input-3-4 {
+    width: 75%;
+}
+
+.cmdonation .pure-form .pure-input-2-3 {
+    width: 66%;
+}
+
+.cmdonation .pure-form .pure-input-1-2 {
+    width: 50%;
+}
+
+.cmdonation .pure-form .pure-input-1-3 {
+    width: 33%;
+}
+
+.cmdonation .pure-form .pure-input-1-4 {
+    width: 25%;
+}
+
+/* Inline help for forms */
+
+/* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+
+.cmdonation .pure-form .pure-help-inline,
+.cmdonation .pure-form-message-inline {
+    display: inline-block;
+    padding-left: 0.3em;
+    color: #666;
+    vertical-align: middle;
+    font-size: 0.875em;
+}
+
+/* Block help for forms */
+
+.cmdonation .pure-form-message {
+    display: block;
+    color: #666;
+    font-size: 0.875em;
+}
+
+/* Append and prepend */
+
+.cmdonation .pure-form .pure-input-append,
+.cmdonation .pure-form .pure-input-prepend {
+    display: inline-block;
+}
+
+.cmdonation .pure-form .pure-input-prepend .add-on {
+    margin-right: -6px;
+    border-radius: 4px 0 0 4px;
+}
+
+.cmdonation .pure-form .pure-input-append .add-on {
+    margin-left: -6px;
+    border-radius: 0 4px 4px 0;
+}
+
+.cmdonation .pure-form .pure-input-prepend .add-on,
+.cmdonation .pure-form .pure-input-append .add-on {
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: auto;
+    padding: 0.52em 0.9em;
+    text-align: center;
+    vertical-align: top;
+    line-height: normal;
+}
+
+.cmdonation .pure-form .pure-input-append input {
+    border-radius: 4px 0 0 4px;
+}
+
+.cmdonation .pure-form .pure-input-prepend input {
+    border-radius: 0 4px 4px 0;
+}
+
+.cmdonation .pure-form .pure-control-group .pure-controls {
+    margin: 0;
+    display: inline-block;
+}
+
+.cmdonation .pure-form-aligned .pure-control-group .pure-label-top-aligned {
+    vertical-align: top;
+}
+
+.cmdonation .pure-form-aligned .pure-controls .pure-checkbox,
+.cmdonation .pure-form-aligned .pure-controls .pure-radio {
+    margin-bottom: 0.5em;
+    text-align: left;
+    display: block;
+    width: auto;
+}
+
+@media only screen and (max-width : 480px) {
+    .cmdonation .pure-form button[type="submit"] {
+        margin: 0.7em 0 0;
+    }
+
+    .cmdonation .pure-form input:not([type]),
+    .cmdonation .pure-form input[type="text"],
+    .cmdonation .pure-form input[type="password"],
+    .cmdonation .pure-form input[type="email"],
+    .cmdonation .pure-form input[type="url"],
+    .cmdonation .pure-form input[type="date"],
+    .cmdonation .pure-form input[type="month"],
+    .cmdonation .pure-form input[type="time"],
+    .cmdonation .pure-form input[type="datetime"],
+    .cmdonation .pure-form input[type="datetime-local"],
+    .cmdonation .pure-form input[type="week"],
+    .cmdonation .pure-form input[type="number"],
+    .cmdonation .pure-form input[type="search"],
+    .cmdonation .pure-form input[type="tel"],
+    .cmdonation .pure-form input[type="color"],
+    .cmdonation .pure-form label {
+        margin-bottom: 0.3em;
+        display: inline-block;
+    }
+
+    .cmdonation .pure-group input:not([type]),
+    .cmdonation .pure-group input[type="text"],
+    .cmdonation .pure-group input[type="password"],
+    .cmdonation .pure-group input[type="email"],
+    .cmdonation .pure-group input[type="url"],
+    .cmdonation .pure-group input[type="date"],
+    .cmdonation .pure-group input[type="month"],
+    .cmdonation .pure-group input[type="time"],
+    .cmdonation .pure-group input[type="datetime"],
+    .cmdonation .pure-group input[type="datetime-local"],
+    .cmdonation .pure-group input[type="week"],
+    .cmdonation .pure-group input[type="number"],
+    .cmdonation .pure-group input[type="search"],
+    .cmdonation .pure-group input[type="tel"],
+    .cmdonation .pure-group input[type="color"] {
+        margin-bottom: 0;
+    }
+
+    .cmdonation .pure-form-aligned .pure-control-group label {
+        margin-bottom: 0.3em;
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+
+    .cmdonation .pure-form-aligned .pure-controls {
+        margin: 1.5em 0 0 0;
+    }
+
+    /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+
+    .cmdonation .pure-form .pure-help-inline,
+    .cmdonation .pure-form-message-inline,
+    .cmdonation .pure-form-message {
+        display: block;
+        font-size: 0.75em;
+        /* Increased bottom padding to make it group with its related input element. */
+        padding: 0.2em 0 0.8em;
+    }
+}
+
+/*csslint adjoining-classes: false, box-model:false*/
+
+.cmdonation .pure-menu {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cmdonation .pure-menu-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.cmdonation .pure-menu-list,
+.cmdonation .pure-menu-item {
+    position: relative;
+}
+
+.cmdonation .pure-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cmdonation .pure-menu-item {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.cmdonation .pure-menu-link,
+.cmdonation .pure-menu-heading {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* HORIZONTAL MENU */
+
+.cmdonation .pure-menu-horizontal {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.cmdonation .pure-menu-horizontal .pure-menu-list {
+    display: inline-block;
+}
+
+/* Initial menus should be inline-block so that they are horizontal */
+
+.cmdonation .pure-menu-horizontal .pure-menu-item,
+.cmdonation .pure-menu-horizontal .pure-menu-heading,
+.cmdonation .pure-menu-horizontal .pure-menu-separator {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle;
+}
+
+/* Submenus should still be display: block; */
+
+.cmdonation .pure-menu-item .pure-menu-item {
+    display: block;
+}
+
+.cmdonation .pure-menu-children {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+
+.cmdonation .pure-menu-horizontal .pure-menu-children {
+    left: 0;
+    top: auto;
+    width: inherit;
+}
+
+.cmdonation .pure-menu-allow-hover:hover > .pure-menu-children,
+.cmdonation .pure-menu-active > .pure-menu-children {
+    display: block;
+    position: absolute;
+}
+
+/* Vertical Menus - show the dropdown arrow */
+
+.cmdonation .pure-menu-has-children > .pure-menu-link:after {
+    padding-left: 0.5em;
+    content: "\25B8";
+    font-size: small;
+}
+
+/* Horizontal Menus - show the dropdown arrow */
+
+.cmdonation .pure-menu-horizontal .pure-menu-has-children > .pure-menu-link:after {
+    content: "\25BE";
+}
+
+/* scrollable menus */
+
+.cmdonation .pure-menu-scrollable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cmdonation .pure-menu-scrollable .pure-menu-list {
+    display: block;
+}
+
+.cmdonation .pure-menu-horizontal.pure-menu-scrollable .pure-menu-list {
+    display: inline-block;
+}
+
+.cmdonation .pure-menu-horizontal.pure-menu-scrollable {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    /* a little extra padding for this style to allow for scrollbars */
+    padding: .5em 0;
+}
+
+.cmdonation .pure-menu-horizontal.pure-menu-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+/* misc default styling */
+
+.cmdonation .pure-menu-separator {
+    background-color: #ccc;
+    height: 1px;
+    margin: .3em 0;
+}
+
+.cmdonation .pure-menu-horizontal .pure-menu-separator {
+    width: 1px;
+    height: 1.3em;
+    margin: 0 .3em;
+}
+
+.cmdonation .pure-menu-heading {
+    text-transform: uppercase;
+    color: #565d64;
+}
+
+.cmdonation .pure-menu-link {
+    color: #777;
+}
+
+.cmdonation .pure-menu-children {
+    background-color: #fff;
+}
+
+.cmdonation .pure-menu-link,
+.cmdonation .pure-menu-disabled,
+.cmdonation .pure-menu-heading {
+    padding: .5em 1em;
+}
+
+.cmdonation .pure-menu-disabled {
+    opacity: .5;
+}
+
+.cmdonation .pure-menu-disabled .pure-menu-link:hover {
+    background-color: transparent;
+}
+
+.cmdonation .pure-menu-active > .pure-menu-link,
+.cmdonation .pure-menu-link:hover,
+.cmdonation .pure-menu-link:focus {
+    background-color: #eee;
+}
+
+.cmdonation .pure-menu-selected .pure-menu-link,
+.cmdonation .pure-menu-selected .pure-menu-link:visited {
+    color: #000;
+}
+
+.cmdonation .pure-table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+
+.cmdonation .pure-table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.cmdonation .pure-table td,
+.cmdonation .pure-table th {
+    border-left: 1px solid #cbcbcb;
+    /*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    /*to make ths where the title is really long work*/
+    padding: 0.5em 1em;
+    /* cell padding */
+}
+
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+
+.cmdonation .pure-table td:first-child,
+.cmdonation .pure-table th:first-child {
+    border-left-width: 0;
+}
+
+.cmdonation .pure-table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+/*
+striping:
+   even - #fff (white)
+   odd  - #f2f2f2 (light gray)
+*/
+
+.cmdonation .pure-table td {
+    background-color: transparent;
+}
+
+.cmdonation .pure-table-odd td {
+    background-color: #f2f2f2;
+}
+
+/* nth-child selector for modern browsers */
+
+.cmdonation .pure-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+}
+
+/* BORDERED TABLES */
+
+.cmdonation .pure-table-bordered td {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.cmdonation .pure-table-bordered tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+/* HORIZONTAL BORDERED TABLES */
+
+.cmdonation .pure-table-horizontal td,
+.cmdonation .pure-table-horizontal th {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.cmdonation .pure-table-horizontal tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}

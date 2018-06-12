@@ -1,0 +1,260 @@
+[
+	{
+		"template": "agency",
+		"title": "agency",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "agency_minimal",
+		"title": "agency minimal",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "agency_two",
+		"title": "agency two",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "business",
+		"title": "business",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "business_clean",
+		"title": "business clean",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "construction",
+		"title": "construction",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "corporate",
+		"title": "corporate",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "creative_design",
+		"title": "creative design",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "design_agency",
+		"title": "design agency",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "design_school",
+		"title": "design school",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "interior_architect",
+		"title": "interior architect",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "interior_design",
+		"title": "interior design",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "law",
+		"title": "law",
+		"category": "corporate",
+		"category_title": "corporate"
+	},
+	{
+		"template": "event",
+		"title": "event",
+		"category": "entertainment_media",
+		"category_title": "entertainment media"
+	},
+	{
+		"template": "event_bold",
+		"title": "event bold",
+		"category": "entertainment_media",
+		"category_title": "entertainment media"
+	},
+	{
+		"template": "music_event",
+		"title": "music event",
+		"category": "entertainment_media",
+		"category_title": "entertainment media"
+	},
+	{
+		"template": "music_trendy",
+		"title": "music trendy",
+		"category": "entertainment_media",
+		"category_title": "entertainment media"
+	},
+	{
+		"template": "fitness",
+		"title": "fitness",
+		"category": "health_fitness",
+		"category_title": "health fitness"
+	},
+	{
+		"template": "fitness_clean",
+		"title": "fitness clean",
+		"category": "health_fitness",
+		"category_title": "health fitness"
+	},
+	{
+		"template": "gym",
+		"title": "gym",
+		"category": "health_fitness",
+		"category_title": "health fitness"
+	},
+	{
+		"template": "healthy_food",
+		"title": "healthy food",
+		"category": "health_fitness",
+		"category_title": "health fitness"
+	},
+	{
+		"template": "trainer",
+		"title": "trainer",
+		"category": "health_fitness",
+		"category_title": "health fitness"
+	},
+	{
+		"template": "app_landing",
+		"title": "app landing",
+		"category": "landing_pages",
+		"category_title": "landing pages"
+	},
+	{
+		"template": "app_landing_2",
+		"title": "app landing 2",
+		"category": "landing_pages",
+		"category_title": "landing pages"
+	},
+	{
+		"template": "app_landing_minimal",
+		"title": "app landing minimal",
+		"category": "landing_pages",
+		"category_title": "landing pages"
+	},
+	{
+		"template": "product",
+		"title": "product",
+		"category": "landing_pages",
+		"category_title": "landing pages"
+	},
+	{
+		"template": "about",
+		"title": "about",
+		"category": "others",
+		"category_title": "others"
+	},
+	{
+		"template": "contact",
+		"title": "contact",
+		"category": "others",
+		"category_title": "others"
+	},
+	{
+		"template": "faqs",
+		"title": "faqs",
+		"category": "others",
+		"category_title": "others"
+	},
+	{
+		"template": "services",
+		"title": "services",
+		"category": "others",
+		"category_title": "others"
+	},
+	{
+		"template": "accountant",
+		"title": "accountant",
+		"category": "personal",
+		"category_title": "personal"
+	},
+	{
+		"template": "photographer",
+		"title": "photographer",
+		"category": "personal",
+		"category_title": "personal"
+	},
+	{
+		"template": "portfolio_resume_cv",
+		"title": "portfolio resume cv",
+		"category": "personal",
+		"category_title": "personal"
+	},
+	{
+		"template": "resume",
+		"title": "resume",
+		"category": "personal",
+		"category_title": "personal"
+	},
+	{
+		"template": "barber",
+		"title": "barber",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "fashion_shop",
+		"title": "fashion shop",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "resort",
+		"title": "resort",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "restaurant",
+		"title": "restaurant",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "restaurant_trendy",
+		"title": "restaurant trendy",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "saloon",
+		"title": "saloon",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "spa",
+		"title": "spa",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "travel",
+		"title": "travel",
+		"category": "travel_lifestyle",
+		"category_title": "travel lifestyle"
+	},
+	{
+		"template": "wedding",
+		"title": "wedding",
+		"category": "wedding",
+		"category_title": "wedding"
+	}
+]
